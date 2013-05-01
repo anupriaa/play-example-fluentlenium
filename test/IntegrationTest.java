@@ -20,7 +20,6 @@ public class IntegrationTest {
             String name = "Test Name";
             String gender = "Female";
             indexPage.submitForm(name, gender);
-            browser.takeScreenShot();
             assertThat(browser.pageSource()).contains("Last Gender: " + gender);
             assertThat(browser.pageSource()).contains("Last Name: " + name);
           }
