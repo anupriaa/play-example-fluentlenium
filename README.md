@@ -1,4 +1,4 @@
-<img href="https://raw.github.com/ics-software-engineering/play-example-fluentlenium/gh-pages/images/play-example-fluentlenium-screenshot.png" width="500px" />
+![screenshot](https://raw.github.com/ics-software-engineering/play-example-fluentlenium/gh-pages/images/play-example-fluentlenium-screenshot.png)
 
 A simple Play application illustrating the use of Fluentlenium for testing. Illustrates:
 
