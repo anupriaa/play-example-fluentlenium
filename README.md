@@ -1,6 +1,3 @@
-play-example-fluentlenium
-=========================
-
 A simple Play application illustrating the use of Fluentlenium for testing. Illustrates:
 
   * Page Object Pattern (test/pages/IndexPage.java)
