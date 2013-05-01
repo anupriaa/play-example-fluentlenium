@@ -7,7 +7,7 @@ A simple Play application illustrating the use of Fluentlenium for testing. Illu
   * How to select an item from a pulldown menu as part of a test case (test/IntegrationTest.java)
   
 Usage
-=====
+-----
 
 Download the system, then invoke `play test` to see the output:
 
