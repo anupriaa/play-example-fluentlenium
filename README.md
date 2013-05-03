@@ -8,7 +8,7 @@ A simple Play application illustrating the use of Fluentlenium for testing. Illu
 Usage
 -----
 
-Download the system, then invoke `play test` to see the output:
+Download the system, then invoke `play test` to run the fluentlenium tests:
 
 ```shell
 [~/projecthosting/github/play-example-fluentlenium]-> play test
@@ -26,4 +26,4 @@ Download the system, then invoke `play test` to see the output:
 [success] Total time: 8 s, completed May 1, 2013 12:58:11 PM
 ```
 
-To understand the behavior of the system, invoke `play run` then go to http://localhost:9000/.
+To better understand the behavior of the system, you can invoke `play run` then go to http://localhost:9000/ to see the system behavior interactively.
