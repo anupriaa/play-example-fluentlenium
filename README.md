@@ -1,6 +1,6 @@
 ![screenshot](https://raw.github.com/ics-software-engineering/play-example-fluentlenium/gh-pages/images/play-example-fluentlenium-screenshot.png)
 
-A example Play application illustrating the use of [Fluentlenium](https://github.com/FluentLenium/FluentLenium) for testing. 
+A example Play application illustrating the use of [Fluentlenium](https://github.com/FluentLenium/FluentLenium) for testing. GitHub Home Page is [here](http://ics-software-engineering.github.io/play-example-fluentlenium/). 
 
 Key Points
 ----------
