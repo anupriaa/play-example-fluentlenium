@@ -1,9 +1,15 @@
 ![screenshot](https://raw.github.com/ics-software-engineering/play-example-fluentlenium/gh-pages/images/play-example-fluentlenium-screenshot.png)
 
-A simple Play application illustrating the use of Fluentlenium for testing. Illustrates:
+A example Play application illustrating the use of [Fluentlenium](https://github.com/FluentLenium/FluentLenium) for testing. 
 
-  * Page Object Pattern (test/pages/IndexPage.java)
-  * How to select an item from a pulldown menu as part of a test case (test/IntegrationTest.java)
+Key Points
+----------
+
+  * No installation required (Fluentlenium jar files in default Play distribution)
+  * Use Page Object Pattern (test/pages/IndexPage.java)
+  * Provide id attribute in HTML tags to facilitate testing.
+  * Example test case (test/IntegrationTest.java) shows how to select an item from a pulldown menu.
+  * Testing sample code at [Fluentlenium documentation page](https://github.com/FluentLenium/FluentLenium#what-is-fluentlenium-)
   
 Usage
 -----
