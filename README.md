@@ -27,8 +27,3 @@ Download the system, then invoke `play test` to see the output:
 ```
 
 To understand the behavior of the system, invoke `play run` then go to http://localhost:9000/.
-
-Video Introduction
-------------------
-
-<iframe width="560" height="315" src="http://www.youtube.com/embed/MTtbnzxhYAM?rel=0" frameborder="0" allowfullscreen></iframe>
