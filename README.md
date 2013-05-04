@@ -1,4 +1,4 @@
-![screenshot](https://raw.github.com/ics-software-engineering/play-example-fluentlenium/master/doc/images/play-example-fluentlenium-screenshot.png)
+![screenshot](https://raw.github.com/ics-software-engineering/play-example-fluentlenium/master/doc/play-example-fluentlenium-screenshot.png)
 
 A example Play application illustrating the use of [Fluentlenium](https://github.com/FluentLenium/FluentLenium) for testing. GitHub Home Page is [here](http://ics-software-engineering.github.io/play-example-fluentlenium/). 
 
@@ -39,7 +39,7 @@ Screencast
 
 Click the image below to watch a 13 minute walkthrough of this example:
 
-[<img src="https://raw.github.com/ics-software-engineering/play-example-fluentlenium/master/doc/images/play-example-fluentlenium-youtube.png" width="400">](https://www.youtube.com/watch?v=diVhWRtJuxU)
+[<img src="https://raw.github.com/ics-software-engineering/play-example-fluentlenium/master/doc/play-example-fluentlenium-youtube.png" width="400">](https://www.youtube.com/watch?v=diVhWRtJuxU)
 
 Comments? Questions?
 --------------------
