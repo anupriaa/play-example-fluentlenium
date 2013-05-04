@@ -1,4 +1,4 @@
-![screenshot](https://raw.github.com/ics-software-engineering/play-example-fluentlenium/gh-pages/images/play-example-fluentlenium-screenshot.png)
+![screenshot](https://raw.github.com/ics-software-engineering/play-example-fluentlenium/master/doc/images/play-example-fluentlenium-screenshot.png)
 
 A example Play application illustrating the use of [Fluentlenium](https://github.com/FluentLenium/FluentLenium) for testing. GitHub Home Page is [here](http://ics-software-engineering.github.io/play-example-fluentlenium/). 
 
@@ -33,3 +33,20 @@ Download the system, then invoke `play test` to run the fluentlenium tests:
 ```
 
 To better understand the behavior of the system, you can invoke `play run` then go to http://localhost:9000/ to see the system behavior interactively.
+
+Screencast
+----------
+
+Click the image below to watch a 13 minute walkthrough of this example:
+
+[<img src="https://raw.github.com/ics-software-engineering/play-example-fluentlenium/master/doc/images/play-example-fluentlenium-youtube.png" width="400">](https://www.youtube.com/watch?v=diVhWRtJuxU)
+
+Comments? Questions?
+--------------------
+
+Please create a [github issue](https://github.com/ics-software-engineering/play-example-fluentlenium/issues).
+
+Revision History
+----------------
+
+  * May 5, 2013: Initial release for Play 2.1.0. 
