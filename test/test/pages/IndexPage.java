@@ -1,4 +1,4 @@
-package pages;
+package test.pages;
 
 import org.fluentlenium.core.FluentPage;
 import org.openqa.selenium.WebDriver;
@@ -14,7 +14,12 @@ import static org.fluentlenium.core.filter.FilterConstructor.withId;
 public class IndexPage extends FluentPage {
   private String url;
   
-  public IndexPage (WebDriver webDriver, int port) {
+  /**
+   * Create the IndexPage.
+   * @param webDriver The driver.
+   * @param port The port.
+   */
+  public IndexPage(WebDriver webDriver, int port) {
     super(webDriver);
     this.url = "http://localhost:" + port;
   }
@@ -26,9 +31,14 @@ public class IndexPage extends FluentPage {
   
   @Override
   public void isAt() {
-    assert(title().equals("Index"));
+    assert (title().equals("Index"));
   }
   
+  /**
+   * Set the form to the passed values, then submit it.
+   * @param name The form name data.
+   * @param gender The form gender value. 
+   */
   public void submitForm(String name, String gender) {
     // Fill the input field with id "name" with the passed name string.
     fill("#name").with(name);

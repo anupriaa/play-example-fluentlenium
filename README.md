@@ -50,3 +50,4 @@ Revision History
 ----------------
 
   * May 5, 2013: Initial release for Play 2.1.0. 
+  * November 29, 2013: Update to Play 2.2.0
