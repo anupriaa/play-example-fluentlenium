@@ -31,7 +31,9 @@ public class IndexPage extends FluentPage {
   
   @Override
   public void isAt() {
-    assert (title().equals("Index"));
+    if (!title().equals("Index")) {
+      throw new RuntimeException("Not at Index page.");
+    }
   }
   
   /**
