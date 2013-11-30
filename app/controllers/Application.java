@@ -15,6 +15,7 @@ import views.html.index;
  * @author Philip Johnson
  */
 public class Application extends Controller {
+  /** The person form. */
   public static Form<Person> personForm = form(Person.class);
 
   /**

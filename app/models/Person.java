@@ -1,5 +1,5 @@
 package models;
-
+ 
 import play.db.ebean.Model;
 
 /**
@@ -8,6 +8,8 @@ import play.db.ebean.Model;
  */
 public class Person extends Model {
   private static final long serialVersionUID = -2206212996405933705L;
+  /** The form name.*/
   public String name;
+  /** The form gender.*/
   public String gender;
 }

@@ -37,7 +37,8 @@ To better understand the behavior of the system, you can invoke `play run` then 
 Screencast
 ----------
 
-Click the image below to watch a 13 minute walkthrough of this example:
+Click the image below to watch a 13 minute walkthrough of this example. (Note that the code has been
+slightly modified since this screencast to work with Play 2.2 and to remove some checkstyle errors.)
 
 [<img src="https://raw.github.com/ics-software-engineering/play-example-fluentlenium/master/doc/play-example-fluentlenium-youtube.png" width="400">](https://www.youtube.com/watch?v=diVhWRtJuxU)
 
@@ -50,3 +51,4 @@ Revision History
 ----------------
 
   * May 5, 2013: Initial release for Play 2.1.0. 
+  * November 29, 2013: Update to Play 2.2.0, remove checkstyle errors. 
