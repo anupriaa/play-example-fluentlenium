@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 // the no-arg versions of the methods used here are not deprecated.  (as of May, 2013).
 import static org.fluentlenium.core.filter.FilterConstructor.withText; 
 import static org.fluentlenium.core.filter.FilterConstructor.withId;  
+import static org.fest.assertions.Assertions.assertThat;
 
 /**
  * Illustration of the Page Object Pattern in Fluentlenium.  
@@ -31,9 +32,7 @@ public class IndexPage extends FluentPage {
   
   @Override
   public void isAt() {
-    if (!title().equals("Index")) {
-      throw new RuntimeException("Not at Index page.");
-    }
+    assertThat(title()).isEqualTo("Index");
   }
   
   /**
