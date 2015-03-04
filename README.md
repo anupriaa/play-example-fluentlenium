@@ -38,7 +38,7 @@ Screencast
 ----------
 
 Click the image below to watch a 13 minute walkthrough of this example. (Note that the code has been
-slightly modified since this screencast to work with Play 2.2 and to remove some checkstyle errors.)
+slightly modified since this screencast to work with more recent releases of Play.)
 
 [<img src="https://raw.github.com/ics-software-engineering/play-example-fluentlenium/master/doc/play-example-fluentlenium-youtube.png" width="400">](https://www.youtube.com/watch?v=diVhWRtJuxU)
 
@@ -50,5 +50,6 @@ Please create a [github issue](https://github.com/ics-software-engineering/play-
 Revision History
 ----------------
 
-  * May 5, 2013: Initial release for Play 2.1.0. 
-  * November 29, 2013: Update to Play 2.2.0, remove checkstyle errors. 
+  * March 3, 2015: Update to Play 2.3.7, provide IntelliJ project files.
+  * November 29, 2013: Update to Play 2.2.0, remove checkstyle errors.
+  * May 5, 2013: Initial release for Play 2.1.0.
