@@ -39,34 +39,26 @@
 <a id="key-points" class="anchor" href="#key-points" aria-hidden="true"><span class="octicon octicon-link"></span></a>Key Points</h2>
 
 <ul>
-<li>No installation required (Fluentlenium jar files in default Play distribution)</li>
-<li>Use Page Object Pattern (<a href="https://github.com/ics-software-engineering/play-example-fluentlenium/blob/master/test/test/pages/IndexPage.java">test/pages/IndexPage.java</a>)</li>
-<li>Provide id attribute in HTML tags to facilitate testing.</li>
-<li>Example test case (<a href="https://github.com/ics-software-engineering/play-example-fluentlenium/blob/master/test/test/IntegrationTest.java">test/IntegrationTest.java</a>) shows how to select an item from a pulldown menu.</li>
-<li>Testing sample code at <a href="https://github.com/FluentLenium/FluentLenium#what-is-fluentlenium-">Fluentlenium documentation page</a>
-</li>
+<li><p>No installation required (Fluentlenium jar files in default Play distribution).</p></li>
+<li><p>Uses the Page Object Pattern (<a href="https://github.com/ics-software-engineering/play-example-fluentlenium/blob/master/test/test/pages/IndexPage.java">test/pages/IndexPage.java</a>).</p></li>
+<li><p>Provides the id attribute in HTML tags to facilitate testing.</p></li>
+<li><p>Example test case (<a href="https://github.com/ics-software-engineering/play-example-fluentlenium/blob/master/test/test/IntegrationTest.java">test/IntegrationTest.java</a>) shows how to select an item from a pulldown menu.</p></li>
+<li><p>Testing sample code at <a href="https://github.com/FluentLenium/FluentLenium#what-is-fluentlenium-">Fluentlenium documentation page</a></p></li>
 </ul>
 
 <h2>
 <a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
 
-<p>Download the system, then invoke <code>play test</code> to run the fluentlenium tests:</p>
+<p>Download the system, then invoke <code>activator test</code> to run the fluentlenium tests:</p>
 
-<div class="highlight highlight-shell"><pre>[~/projecthosting/github/play-example-fluentlenium]-<span class="pl-k">&gt;</span> play <span class="pl-s3">test</span>
-[info] Loading project definition from /Users/johnson/projecthosting/github/play-example-fluentlenium/project
-[info] Set current project to play-example-fluentlenium (<span class="pl-k">in</span> build file:/Users/johnson/projecthosting/github/play-example-fluentlenium/)
-[info] Compiling 1 Java <span class="pl-s3">source</span> to /Users/johnson/projecthosting/github/play-example-fluentlenium/target/scala-2.10/test-classes...
-[info] IntegrationTest
-[info] + IntegrationTest.<span class="pl-s3">test</span>
-[info] 
-[info] 
-[info] Total <span class="pl-k">for</span> <span class="pl-vo">test</span> IntegrationTest
-[info] Finished <span class="pl-k">in</span> 0.014 seconds
-[info] 1 tests, 0 failures, 0 errors
-[info] Passed: <span class="pl-s3">:</span> Total 1, Failed 0, Errors 0, Passed 1, Skipped 0
-[success] Total <span class="pl-k">time</span>: 8 s, completed May 1, 2013 12:58:11 PM</pre></div>
+<div class="highlight highlight-shell"><pre>[~/projecthosting/github/play/play-example-fluentlenium]-<span class="pl-k">&gt;</span> activator <span class="pl-s3">test</span>
+[info] Loading project definition from /Users/johnson/projecthosting/github/play/play-example-fluentlenium/project
+[info] Set current project to play-example-fluentlenium (<span class="pl-k">in</span> build file:/Users/johnson/projecthosting/github/play/play-example-fluentlenium/)
+[info] Compiling 4 Java sources to /Users/johnson/projecthosting/github/play/play-example-fluentlenium/target/scala-2.11/test-classes...
+[info] Passed: Total 1, Failed 0, Errors 0, Passed 1
+[success] Total <span class="pl-k">time</span>: 6 s, completed Mar 3, 2015 3:52:18 PM</pre></div>
 
-<p>To better understand the behavior of the system, you can invoke <code>play run</code> then go to http://localhost:9000/ to see the system behavior interactively.</p>
+<p>To better understand the behavior of the system, you can invoke <code>activator run</code> then go to http://localhost:9000/ to see the system behavior interactively.</p>
 
 <h2>
 <a id="screencast" class="anchor" href="#screencast" aria-hidden="true"><span class="octicon octicon-link"></span></a>Screencast</h2>
