@@ -6,9 +6,9 @@ Key Points
 ----------
 
   * No installation required (Fluentlenium jar files in default Play distribution)
-  * Use Page Object Pattern ([test/pages/IndexPage.java](https://github.com/ics-software-engineering/play-example-fluentlenium/blob/master/test/pages/IndexPage.java))
+  * Use Page Object Pattern ([test/pages/IndexPage.java](https://github.com/ics-software-engineering/play-example-fluentlenium/blob/master/test/test/pages/IndexPage.java))
   * Provide id attribute in HTML tags to facilitate testing.
-  * Example test case ([test/IntegrationTest.java](https://github.com/ics-software-engineering/play-example-fluentlenium/blob/master/test/IntegrationTest.java)) shows how to select an item from a pulldown menu.
+  * Example test case ([test/IntegrationTest.java](https://github.com/ics-software-engineering/play-example-fluentlenium/blob/master/test/test/IntegrationTest.java)) shows how to select an item from a pulldown menu.
   * Testing sample code at [Fluentlenium documentation page](https://github.com/FluentLenium/FluentLenium#what-is-fluentlenium-)
   
 Usage
