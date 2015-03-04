@@ -2,13 +2,13 @@
 <html>
 
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Play-example-fluentlenium : Illustrates use of Fluentlenium for testing play applications" />
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="play-example-fluentlenium : Illustrates use of Fluentlenium for testing play applications">
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Play-example-fluentlenium</title>
+    <title>play-example-fluentlenium</title>
   </head>
 
   <body>
@@ -18,7 +18,7 @@
         <header class="inner">
           <a id="forkme_banner" href="https://github.com/ics-software-engineering/play-example-fluentlenium">View on GitHub</a>
 
-          <h1 id="project_title">Play-example-fluentlenium</h1>
+          <h1 id="project_title">play-example-fluentlenium</h1>
           <h2 id="project_tagline">Illustrates use of Fluentlenium for testing play applications</h2>
 
             <section id="downloads">
@@ -36,56 +36,58 @@
 <p>A example Play application illustrating the use of <a href="https://github.com/FluentLenium/FluentLenium">Fluentlenium</a> for testing. </p>
 
 <h2>
-<a name="key-points" class="anchor" href="#key-points"><span class="octicon octicon-link"></span></a>Key Points</h2>
+<a id="key-points" class="anchor" href="#key-points" aria-hidden="true"><span class="octicon octicon-link"></span></a>Key Points</h2>
 
 <ul>
 <li>No installation required (Fluentlenium jar files in default Play distribution)</li>
-<li>Use Page Object Pattern (<a href="https://github.com/ics-software-engineering/play-example-fluentlenium/blob/master/test/pages/IndexPage.java">test/pages/IndexPage.java</a>)</li>
+<li>Use Page Object Pattern (<a href="https://github.com/ics-software-engineering/play-example-fluentlenium/blob/master/test/test/pages/IndexPage.java">test/pages/IndexPage.java</a>)</li>
 <li>Provide id attribute in HTML tags to facilitate testing.</li>
-<li>Example test case (<a href="https://github.com/ics-software-engineering/play-example-fluentlenium/blob/master/test/IntegrationTest.java">test/IntegrationTest.java</a>) shows how to select an item from a pulldown menu.</li>
+<li>Example test case (<a href="https://github.com/ics-software-engineering/play-example-fluentlenium/blob/master/test/test/IntegrationTest.java">test/IntegrationTest.java</a>) shows how to select an item from a pulldown menu.</li>
 <li>Testing sample code at <a href="https://github.com/FluentLenium/FluentLenium#what-is-fluentlenium-">Fluentlenium documentation page</a>
 </li>
-</ul><h2>
-<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+</ul>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
 
 <p>Download the system, then invoke <code>play test</code> to run the fluentlenium tests:</p>
 
-<pre lang="shell"><code>[~/projecthosting/github/play-example-fluentlenium]-&gt; play test
+<div class="highlight highlight-shell"><pre>[~/projecthosting/github/play-example-fluentlenium]-<span class="pl-k">&gt;</span> play <span class="pl-s3">test</span>
 [info] Loading project definition from /Users/johnson/projecthosting/github/play-example-fluentlenium/project
-[info] Set current project to play-example-fluentlenium (in build file:/Users/johnson/projecthosting/github/play-example-fluentlenium/)
-[info] Compiling 1 Java source to /Users/johnson/projecthosting/github/play-example-fluentlenium/target/scala-2.10/test-classes...
+[info] Set current project to play-example-fluentlenium (<span class="pl-k">in</span> build file:/Users/johnson/projecthosting/github/play-example-fluentlenium/)
+[info] Compiling 1 Java <span class="pl-s3">source</span> to /Users/johnson/projecthosting/github/play-example-fluentlenium/target/scala-2.10/test-classes...
 [info] IntegrationTest
-[info] + IntegrationTest.test
+[info] + IntegrationTest.<span class="pl-s3">test</span>
 [info] 
 [info] 
-[info] Total for test IntegrationTest
-[info] Finished in 0.014 seconds
+[info] Total <span class="pl-k">for</span> <span class="pl-vo">test</span> IntegrationTest
+[info] Finished <span class="pl-k">in</span> 0.014 seconds
 [info] 1 tests, 0 failures, 0 errors
-[info] Passed: : Total 1, Failed 0, Errors 0, Passed 1, Skipped 0
-[success] Total time: 8 s, completed May 1, 2013 12:58:11 PM
-</code></pre>
+[info] Passed: <span class="pl-s3">:</span> Total 1, Failed 0, Errors 0, Passed 1, Skipped 0
+[success] Total <span class="pl-k">time</span>: 8 s, completed May 1, 2013 12:58:11 PM</pre></div>
 
 <p>To better understand the behavior of the system, you can invoke <code>play run</code> then go to http://localhost:9000/ to see the system behavior interactively.</p>
 
 <h2>
-<a name="screencast" class="anchor" href="#screencast"><span class="octicon octicon-link"></span></a>Screencast</h2>
+<a id="screencast" class="anchor" href="#screencast" aria-hidden="true"><span class="octicon octicon-link"></span></a>Screencast</h2>
 
 <p>Click the image below to watch a 13 minute walkthrough of this example. (Note that the code has been
-slightly modified since this screencast to work with Play 2.2 and to remove some checkstyle errors.)</p>
+slightly modified since this screencast to work with more recent releases of Play.)</p>
 
 <p><a href="https://www.youtube.com/watch?v=diVhWRtJuxU"><img src="https://raw.github.com/ics-software-engineering/play-example-fluentlenium/master/doc/play-example-fluentlenium-youtube.png" width="400"></a></p>
 
 <h2>
-<a name="comments-questions" class="anchor" href="#comments-questions"><span class="octicon octicon-link"></span></a>Comments? Questions?</h2>
+<a id="comments-questions" class="anchor" href="#comments-questions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Comments? Questions?</h2>
 
 <p>Please create a <a href="https://github.com/ics-software-engineering/play-example-fluentlenium/issues">github issue</a>.</p>
 
 <h2>
-<a name="revision-history" class="anchor" href="#revision-history"><span class="octicon octicon-link"></span></a>Revision History</h2>
+<a id="revision-history" class="anchor" href="#revision-history" aria-hidden="true"><span class="octicon octicon-link"></span></a>Revision History</h2>
 
 <ul>
-<li>May 5, 2013: Initial release for Play 2.1.0. </li>
-<li>November 29, 2013: Update to Play 2.2.0, remove checkstyle errors. </li>
+<li>March 3, 2015: Update to Play 2.3.7, provide IntelliJ project files.</li>
+<li>November 29, 2013: Update to Play 2.2.0, remove checkstyle errors.</li>
+<li>May 5, 2013: Initial release for Play 2.1.0.</li>
 </ul>
       </section>
     </div>
@@ -93,7 +95,7 @@ slightly modified since this screencast to work with Play 2.2 and to remove some
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p class="copyright">Play-example-fluentlenium maintained by <a href="https://github.com/ics-software-engineering">ics-software-engineering</a></p>
+        <p class="copyright">play-example-fluentlenium maintained by <a href="https://github.com/ics-software-engineering">ics-software-engineering</a></p>
         <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
