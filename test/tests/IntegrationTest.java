@@ -1,4 +1,4 @@
-package test;
+package tests;
 
 import org.junit.Test;
 import play.test.TestBrowser;
@@ -9,7 +9,7 @@ import static play.test.Helpers.fakeApplication;
 import static play.test.Helpers.testServer;
 import static play.test.Helpers.running;
 import static org.fest.assertions.Assertions.assertThat;
-import test.pages.IndexPage;
+import tests.pages.IndexPage;
 
 /**
  * Sample "integration" test, using the functioning webapp. 
