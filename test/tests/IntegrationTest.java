@@ -27,6 +27,7 @@ public class IntegrationTest {
     running(testServer(port, fakeApplication(inMemoryDatabase())), HTMLUNIT,
         new Callback<TestBrowser>() {
           public void invoke(TestBrowser browser) {
+            browser.maximizeWindow();
             IndexPage indexPage = new IndexPage(browser.getDriver(), port);
             browser.goTo(indexPage);
             String name = "Test Name";
