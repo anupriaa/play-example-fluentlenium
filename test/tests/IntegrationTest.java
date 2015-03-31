@@ -30,6 +30,7 @@ public class IntegrationTest {
             browser.maximizeWindow();
             IndexPage indexPage = new IndexPage(browser.getDriver(), port);
             browser.goTo(indexPage);
+            indexPage.isAt();
             String name = "Test Name";
             String gender = "Female";
             indexPage.submitForm(name, gender);
